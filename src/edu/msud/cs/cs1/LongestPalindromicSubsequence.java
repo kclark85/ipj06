@@ -41,7 +41,7 @@ public class LongestPalindromicSubsequence {
         System.out.println("Input argument string is:");
         for(int i = 0; i < args.length; i++)
             System.out.print(args[i] + " ");
-        ArrayList cmdArgs = new ArrayList(Arrays.asList(args));
+        ArrayList cmdArgs = new ArrayList(Arrays.asList(args)); //converts strings in args to an arraylist for use by longestPalindrome method
         LongestPalindromicSubsequence palindrome = new LongestPalindromicSubsequence();
         System.out.println();
         System.out.println("The first longest palindrome in this string is " + palindrome.longestPalindrome(cmdArgs));
